@@ -1,0 +1,21 @@
+<?php
+$site = "yazilimportal.com/blog";
+if(isset($site))
+echo "Site değişkenimiz var";
+else
+echo "Site değişkenimiz bulunamadı";
+?>
+
+Yukarıdaki örnek kod $site değişkeninin içeriğine bakmaksızın varlığını kontrol eder.
+Eğer $site değişkeni var ise True değeri döndürür bu sayede if yapısı 1 değerini alarak koşula girer.
+Eğer $site değişkenini tanımlamasaydık False değerini döndürerek else kısmına girecekti.
+Çoklu kullanımı ise aşağıdaki örnekte belirtildiği gibidir:
+
+<?php
+$site1 = "yazilimportal.com/blog";
+$site2 = "peker.tk";
+if(isset($site1,$site2))
+echo "Tüm siteler bulundu";
+else
+echo "En az 1 site bulunamadı";
+?>
