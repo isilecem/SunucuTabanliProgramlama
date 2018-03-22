@@ -9,11 +9,11 @@
 <div>
 <form class="form-signin" action="ogrenci_kayit.php" method="POST">
 <h2 class="form-signin-heading"> Öğrenci Kayıt Formu </h2>
-<input type="number" name="ogr_no" placeholder="Öğrenci No" class="form-control"><br>
-<input type="text" name="ad" placeholder="Ad"><br>
-<input type="text" name="soyad" placeholder="Soyad"><br>
-<input type="text" name="bolum" placeholder="Bölüm"><br>
-<button class="btn btn-lg btn-primary btn-block" type="submit">GÖNDER</button>
+<input type="number" name="ogr_no" placeholder="Öğrenci No" class="form-control">
+<input type="text" name="ad" placeholder="Ad" class="form-control">
+<input type="text" name="soyad" placeholder="Soyad" class="form-control">
+<input type="text" name="bolum" placeholder="Bölüm" class="form-control">
+<button class="btn btn-lg btn-primary btn-block btn-success" type="submit">GÖNDER</button>
 </form>
 </div>
 <br>
