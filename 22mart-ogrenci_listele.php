@@ -24,4 +24,6 @@ else{
 	echo "Kayıt bulunamadı";
 }
 
+mysqli_close($baglan);
+
 ?>
