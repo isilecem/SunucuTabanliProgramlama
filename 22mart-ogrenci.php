@@ -16,5 +16,9 @@
 <button class="btn btn-lg btn-primary btn-block" type="submit">GÖNDER</button>
 </form>
 </div>
+<br>
+<form class="form-signin" action="ogrenci_listele.php" method="POST">
+<button class="btn btn-lg btn-primary btn-block" type="submit">KAYITLARI GÖR</button>
+</form>
 </body>
 </html>
