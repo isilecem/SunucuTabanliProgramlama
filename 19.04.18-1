@@ -1,0 +1,10 @@
+var fruits=["Elma","Armut","Karpuz","Kavun"];
+fruits.push("Kiraz"); //push:eklemek
+fruits.pop(); //array'in son elemanını çıkarmak
+fruits.push("Avokado");
+fruits.unshift("Kivi");
+var i;
+var fruit=document.getElementById("yazi");
+for (i=0;i<fruits.length;i++){
+	fruit.innerHTML+=fruits[i];
+}
