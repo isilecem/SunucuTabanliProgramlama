@@ -1,0 +1,24 @@
+var day=document.getElementById("yazi");
+switch(new Date().getDay()){
+	case 0:
+	day.innerHTML="Pazar";
+	break;
+	case 1:
+	day.innerHTML="pts";
+	break;
+	case 2:
+	day.innerHTML="sali";
+	break;
+	case 3:
+	day.innerHTML="cars";
+	break;
+	case 4:
+	day.innerHTML="pers";
+	break;
+	case 5:
+	day.innerHTML="cuma";
+	break;
+	case 6:
+	day.innerHTML="cts";
+	break;
+}
