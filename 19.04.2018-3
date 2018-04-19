@@ -1,0 +1,8 @@
+var d=new Date();
+var saat=d.getHours();
+alert(saat);
+if(saat>18){
+	document.getElementById("yazi").innerHTML="İyi akşamlar";
+}else{
+	document.getElementById("yazi").innerHTML="İyi günler";
+}
