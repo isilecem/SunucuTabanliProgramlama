@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Yönetim Bilişim Sistemleri</title>
+</head>
+<body>
+<div id="yazi"></div>
+</body>
+<script src="script.js"></script>
+</html>
