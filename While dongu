@@ -1,0 +1,5 @@
+var i=0;
+do{
+	document.getElementById("yazi").innerHTML+=i;i++;
+}
+while(i<10)
